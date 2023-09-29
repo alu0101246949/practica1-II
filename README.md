@@ -12,8 +12,9 @@
     - [Incluir en el proyecto el paquete "Starter Assets"](#incluir-en-el-proyecto-el-paquete-starter-assets)
     - [Crear un terreno](#crear-un-terreno)
     - [Asignar una etiqueta a cada objeto](#asignar-una-etiqueta-a-cada-objeto)
-    - [Utilizar prefabs](#utilizar-prefabs)
+    - [Incluir un objeto de la Asset Store que no sea de los "Starter Assets"](#incluir-un-objeto-de-la-asset-store-que-no-sea-de-los-starter-assets)
     - [Agregar un script](#agregar-un-script)
+    - [Gif funcionamiento](#gif-funcionamiento)
 
 ## Descripción
 
@@ -37,7 +38,9 @@ He buscado en la Asset Store el paquete Starter Assets - Third Person Character 
 - My assets
 - Busco Starter Assets - Third Person Character Controller y lo descargo
 
-![image](C:\Users\lrama\OneDrive\Escritorio\Captura Unity\Consola.png)
+### Incluir un objeto de la Asset Store que no sea de los "Starter Assets"
+![Palmera](https://github.com/alu0101246949/practica1-II/assets/114754476/c63d0b6c-c060-418c-9920-eee7ad62e438)
+
 
 ### Crear un terreno
 
@@ -47,20 +50,16 @@ He buscado en la Asset Store el paquete Starter Assets - Third Person Character 
 
 Aplicó una textura al terreno utilizando una imagen proporcionada por el paquete de montañas.
 
-![image](URL_DE_IMAGEN)
+![Terreno](https://github.com/alu0101246949/practica1-II/assets/114754476/491a0d46-40dc-44f6-8192-aa3eb9230b78)
+
 
 ### Asignar una etiqueta a cada objeto
 
-Desde el menú de jerarquía del proyecto, he ido seleccionando uno a uno y añadiéndoles un Tag.
+A través del menú de jerarquía del proyecto, asigné un Tag a cada elemento de forma individual.
 
-![image](URL_DE_IMAGEN)
-![image](URL_DE_IMAGEN)
+![Tag Cubo](https://github.com/alu0101246949/practica1-II/assets/114754476/0c29c389-ab83-4100-9c8f-249dd4e7e5d8)
 
-### Utilizar prefabs
-
-He añadido el objeto Box_350x250x200_Prefab a los ya existentes.
-
-![image](URL_DE_IMAGEN)
+![Tag Cubo 2](https://github.com/alu0101246949/practica1-II/assets/114754476/3451e33e-9113-444b-b16a-be8a5af6b320)
 
 ### Agregar un script
 
@@ -74,17 +73,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ShowName : MonoBehaviour
 {
-    public string nombre;
-
+    // Start is called before the first frame update
     void Start()
+    {
+        Debug.Log("My name is " + this.name);
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         
     }
-
-    void Update()
-    {
-        Debug.Log("Nombre del objeto: " + nombre);
-    }
 }
+![Consola](https://github.com/alu0101246949/practica1-II/assets/114754476/1bc591cd-e9ba-46fb-9729-c20a962fcb0a)
+```
+### Gif funcionamiento
+
+![GIF](https://github.com/alu0101246949/practica1-II/assets/114754476/0904fb00-e635-4baf-8dcc-be102afa5150)
+
+
