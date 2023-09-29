@@ -87,8 +87,9 @@ public class ShowName : MonoBehaviour
         
     }
 }
-![Consola](https://github.com/alu0101246949/practica1-II/assets/114754476/1bc591cd-e9ba-46fb-9729-c20a962fcb0a)
 ```
+![Consola](https://github.com/alu0101246949/practica1-II/assets/114754476/1bc591cd-e9ba-46fb-9729-c20a962fcb0a)
+
 ### Gif funcionamiento
 
 ![GIF](https://github.com/alu0101246949/practica1-II/assets/114754476/0904fb00-e635-4baf-8dcc-be102afa5150)
